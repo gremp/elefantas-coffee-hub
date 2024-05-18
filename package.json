@@ -4,6 +4,10 @@
   "author": "Jordan Bowman",
   "description": "This is a Gulp boilerplate that is part of the Pear HTML/Sass boilerplate",
   "private": true,
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
   "dependencies": {
     "browser-sync": "^3.0.2",
     "gulp": "^5.0.0",
