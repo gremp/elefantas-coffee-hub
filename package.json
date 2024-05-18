@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "gulp default",
-    "build": "gulp build"
+    "build": "gulp build && cp -f src/img/meta-logo.jpg dist/img/meta-logo.jpeg"
   },
   "dependencies": {
     "browser-sync": "^3.0.2",
