@@ -5,7 +5,7 @@
   "description": "This is a Gulp boilerplate that is part of the Pear HTML/Sass boilerplate",
   "private": true,
   "scripts": {
-    "start": "gulp",
+    "start": "gulp default",
     "build": "gulp build"
   },
   "dependencies": {
