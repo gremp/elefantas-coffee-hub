@@ -5,8 +5,8 @@
   "description": "This is a Gulp boilerplate that is part of the Pear HTML/Sass boilerplate",
   "private": true,
   "scripts": {
-    "start": "gulp default",
-    "build": "gulp build && cp -f src/img/meta-logo.jpg dist/img/meta-logo.jpeg"
+    "start": "gulp build && gulp default",
+    "build": "gulp build"
   },
   "dependencies": {
     "browser-sync": "^3.0.2",
