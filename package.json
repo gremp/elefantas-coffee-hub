@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start": "gulp build && gulp default",
-    "build": "gulp build"
+    "build": "gulp build && rm -rf dist/img && cp -rf src/img dist/img"
   },
   "dependencies": {
     "browser-sync": "^3.0.2",
